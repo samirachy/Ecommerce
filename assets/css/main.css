@@ -328,18 +328,83 @@ ul{
     color: #666;
     font-weight: 300;
 }
+.boxApollo{
+    padding-top: 100px;
+}
 .boxApollo a{
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 4px;
-    padding: 15px 20px;
-    line-height: 22px;
+    color: #fff;
     background-color: #e43636;
+    border-color: #e43636;
+    transition: all .35s ease;
+    padding: 15px 20px;
+    font-size: 12px;
+    line-height: 1.8;
+    border-radius: 0;
     text-transform: uppercase;
     text-decoration: none;
-    color: #fff;
+    letter-spacing: 5px;
+    display: inline-block;
 }
 .boxApollo a:hover{
     background-color: #cc1b1b;
+}
+/* Block Design */
+.item-media{
+    position: relative;
+    background-color: #f9f9f9;
+    padding: 80px 20px;
+}
+.item-1:after, .item-2:after, .item-3:after, .item-4:after, .item-1:before, .item-2:before, .item-3:before, .item-4:before{
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 100%;
+    top: 0;
+     background-size: cover;
+    background-position: center;
+}
+.item-1:after{
+    background-image: url(../img/design-image-1-rs.webp);
+    right: 0;
+}
+.item-2:after{
+    background-image: url(../img/design-image-2-rs.webp);
+    right: 0;
+}
+.item-3:after{
+    background-image: url(../img/design-image-1-rs.webp);
+    right: 0;
+}
+.item-4:after{
+    background-image: url(../img/design-image-4-rs.webp);
+    right: 0;
+}
+.item-1:before{
+    left: 0;
+    background-color: #333;
+    z-index: 1;
+    opacity: .80;
+   
+}
+.item-2:before{
+    right: 0;
+    background-color: #333;
+    z-index: 1;
+    opacity: .80;
+   
+}
+.item-3:before{
+    left: 0;
+    background-color: #333;
+    z-index: 1;
+    opacity: .80;
+   
+}
+.item-4:before{
+    right: 0;
+    background-color: #333;
+    z-index: 1;
+    opacity: .80;
+   
 }
 
