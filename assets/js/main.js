@@ -34,6 +34,9 @@ $('.block-design').owlCarousel({
         }
     }
 });
+
+;
+
       $('.project-popup').magnificPopup({
         type:'image',
         gallery: {
